@@ -1,0 +1,207 @@
+/* *{
+padding: 0;
+margin: 0;
+21
+0} */
+.text-primary{
+
+color: #FD6E0A;
+
+}
+.header{
+background-image: url(images/developer.png),url(images/header_bg.png);
+background-repeat: no-repeat;
+background-position: top left,bottom right;
+}
+nav{
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+      margin: 0px  150px;
+}
+
+.secondary-bg{
+background-color: #FFF8F3;
+
+    
+}
+.dark-2{
+
+    color: rgb(71, 71, 71);  
+}
+.btn-primary{
+    background-color:#FD6E0A ;
+    font-weight: bold;
+    color: white;
+    padding:  10px 25px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: none;
+
+}
+nav ul{
+
+    display: flex;
+    align-items: center;
+}
+.nav-tittle{
+font-weight: bold;
+font-size: 45px;
+
+}
+nav ul  li{
+
+    list-style: none;
+    margin-right: 50px;
+}
+nav  li a {
+
+  text-decoration: none;
+}
+.banner{
+
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 150px;
+}
+.banner-content{
+   max-width: 585;
+}
+.banner-profile-pic{
+height: 640px;
+
+width: 584px;
+}
+.section-tittle{
+    color: rgb(24, 24, 24);
+   font-weight: bold;
+   font-size: 35px;
+
+}
+
+.section-describtion{
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+
+
+}
+main{
+ max-width: 1140px;
+margin: 0 auto;
+
+}
+.about{
+ border-radius: 10px;
+
+    padding: 130px 150px ;
+    text-align: center;
+    margin-top: 130px;
+
+}
+.about-items{
+display: flex;
+justify-content: space-between;
+
+}
+.item-tittle{
+font-weight: 600;
+font: bold;
+
+}
+
+.skills{
+    border-radius: 10px;
+
+    text-align: center;
+    margin-top: 130px;
+
+
+}
+.skill-container{
+margin-top: 50px;
+display: flex;
+gap: 24px;
+}
+.skill{
+
+
+    border-radius: 5px;
+
+box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+background: rgb(255, 255, 255);
+padding: 30px ;
+}
+
+.skill-description{
+
+    color: rgb(117, 117, 117);
+font-family: Open Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.skill-tittle{
+
+    text-align: left;
+}
+.skill img {
+    display: block; /* Makes the image a block-level element */
+    margin-bottom: 10px;
+    margin-right: 15px;
+  }
+  /* resume section */
+
+  .resume-container{
+
+    display: flex;
+    gap: 20px;
+  }
+  .resume-colum-tittle{
+    color: rgb(71, 71, 71);
+font-family: Open Sans;
+font-size: 30px;
+font-weight: 700;
+    
+
+  }
+.experience-tittle{
+
+    font-size: 25px;
+    font-weight: 700;
+
+}
+  
+  .experience-sub-tittle{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+
+
+  }
+.experience-description, .experience-sub-tittle{
+color: #757575;
+}
+  
+.resume hr{
+
+    margin-top: 30px;
+    /* Dark 05 */
+border: 1px solid rgb(209, 209, 209);
+width: 558px;
+}
+
+.download-button{
+margin-top: 50px;
+display: flex;
+
+justify-content: center;
+}
